@@ -3,6 +3,10 @@
 This is my constantly updated CS:GO autoexec config.
 Put *autoexec.cfg* in `...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg` or take what you want from it and add to your autoexec config! 
 
+### Configs files
+ + [autoexec.cfg](https://github.com/PAPAMICA/CSGO/blob/master/autoexec.cfg) - All config for MM / ESEA / FaceIt
+ + [training.cfg](https://github.com/PAPAMICA/CSGO/blob/master/training.cfg) - Config for CS:GO training
+
 ### Launch Options
 
 	-novid -language papamica -freq 240 -refresh 240 -tickrate 128 -maxplayers_override 50 -nojoy -d3d9ex +exec autoexec.cfg -
