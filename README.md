@@ -20,3 +20,133 @@ Enter launch options at `Steam > Library > Counter-Strike: Global Offensive (rig
 + [Simple Radar](http://simpleradar.com/)
 + [TextColorMod](https://bananagaming.tv/textcolormod.php)
 + [VibranceGUI by juvlarN](http://vibrancegui.com/) - Ingame Vibrance Level: 100% (Automated digital vibrance). **Only download from the official site. There are recompiled versions out there that will attempt to steal your inventory.** 
+
+
+### Autoexec
+// AUTOEXEC BY PAPAMICA //
+/ // Pour tous les binds, vous pouvez changer les armes ainsi que les touches. //
+
+// BIND POUR LES ACHATS
+
+bind "a" "buy vesthelm; buy defuser; buy molotov; buy incgrenade; buy flashbang; buy hegrenade; buy smokegrenade;"
+bind "z" "buy tec9; buy fiveseven; buy flashbang; buy flashbang;"
+bind "e" "buy ak47; buy m4a1; buy tec9; buy fiveseven; buy vesthelm; buy defuser;"
+bind "q" "buy awp; buy tec9; buy fiveseven; buy vesthelm; buy defuser;"
+
+// BIND POUR AFFICHER "RELOADING" LORS DU RECHARGEMENT
+//bind enter "+reload; say_team RELOADING!; -reload"
+
+
+// BIND POUR AFFICHER LES ARMES DE VOS COEQUIPIERS (ID 2017-03-16)
+alias "ToggleInfo" "info_on"
+alias "info_on" "+cl_show_team_equipment; alias ToggleInfo info_off"
+alias "info_off" "-cl_show_team_equipment; alias ToggleInfo info_on"
+bind "J" "ToggleInfo"
+
+// COMMANDE POUR AFFICHER LE NETGRAPH UNIQUEMENT AVEC TAB
+net_graph "1"
+net_graphheight "9999"
+alias "+scorenet" "+showscores; net_graphheight 0"
+alias "-scorenet" "-showscores; net_graphheight 9999"
+bind "TAB" "+scorenet"
+
+// COMMANDE POUR AFFICHER LES DEGATS FAIT LORS DU ROUND
+alias displaydamage "displaydamage_on"
+alias displaydamage_on "con_filter_text Damage Given To; con_filter_text_out Player:; con_filter_enable 2; developer 1; playvol buttons\blip1 0.5; alias displaydamage "displaydamage_off""
+alias displaydamage_off "con_filter_enable 0; developer 0; playvol buttons\blip2 0.5; alias displaydamage "displaydamage_on""
+bind "f5" "displaydamage"
+
+
+// CROSSHAIR "POINT DYNAMIQUE"
+cl_crosshair_drawoutline "1"
+cl_crosshair_dynamic_maxdist_splitratio "0.0"
+cl_crosshair_dynamic_splitalpha_innermod "1"
+cl_crosshair_dynamic_splitalpha_outermod "0.300000"
+cl_crosshair_dynamic_splitdist "5"
+cl_crosshair_outlinethickness "1"
+cl_crosshair_sniper_width "1"
+cl_crosshairalpha "235.000000"
+cl_crosshaircolor "1"
+cl_crosshaircolor_b "255.000000"
+cl_crosshaircolor_g "255.000000"
+cl_crosshaircolor_r "255.000000"
+cl_crosshairdot "1"
+cl_crosshairgap "-4.000000"
+cl_crosshairgap_useweaponvalue "1"
+cl_crosshairscale "0"
+cl_crosshairsize "0.500000"
+cl_crosshairstyle "5"
+cl_crosshairthickness "1"
+cl_crosshairusealpha "1"
+cl_fixedcrosshairgap "0"
+
+
+////COMMANDE POUR CLANTAG DYNAMIQUE (DEMANDER A PAPAMICA LES ACCES AUX GROUPES)
+//bind "downarrow" "+back;cl_clanid 25430803" 
+//bind "leftarrow" "+moveleft;cl_clanid 25430782"
+//bind "rightarrow" "+moveright;cl_clanid 25430778" 
+//bind "uparrow" "+forward;cl_clanid 25430774"
+
+alias "+jumpthrow" "+jump;-attack" 
+alias "-jumpthrow" "-jump" 
+bind "n" "+jumpthrow"
+
+//COMMANDE POUR NINJA DEFUSE
+alias "+ninja" "gameinstructor_enable 1;+use"
+alias "-ninja" "gameinstructor_enable 0;-use"
+bind "n" "+ninja"
+
+
+//BIG CROSSAIRE
+alias +Big_Xhair "cl_crosshairsize 500"
+alias -Big_Xhair "cl_crosshairsize "0.500000""
+bind j +Big_Xhair
+
+
+// AUTRES COMMANDES
+
+con_enable "1"
+developer "0" // print console to screen
+con_filter_enable "2"
+con_filter_text "Damage "
+ui_steam_overlay_notification_position "bottomright"
+mm_dedicated_force_servers ""
+mm_csgo_community_search_players_min "8"
+gameinstructor_enable "0"
+option_duck_method "0"
+option_speed_method "0"
+cl_forcepreload "1"
+cl_join_advertise "2" // let friends join your game
+cl_disablehtmlmotd "0"
+cl_autohelp "0"
+cl_showhelp "0"
+cl_disablefreezecam "1"
+spec_replay_autostart "0"
+cl_dm_buyrandomweapons "0"
+cl_teammate_colors_show "1"
+hud_takesshots "1" // scoreboard screenshot at end of match
+host_writeconfig
+cl_disablefreezecam 1
+bindtoggle kp_leftarrow cl_righthand
+cl_draw_only_deathnotices 0
+hud_takesshots "1"
+cl_join_advertise "2"
+player_nevershow_communityservermessage "1"
+mm_dedicated_search_maxping "80" // max ping for matchmaking games
+mm_dedicated_force_servers ""
+gameinstructor_enable "0"
+option_duck_method "0"
+option_speed_method "0"
+cl_forcepreload "1"
+cl_downloadfilter "nosound" // mapsonly pls volvo
+cl_join_advertise "2" // let friends join your game
+cl_disablehtmlmotd "0"
+cl_autohelp "0"
+cl_showhelp "0"
+cl_disablefreezecam "1"
+spec_replay_autostart "0"
+cl_dm_buyrandomweapons "0"
+cl_teammate_colors_show "1"
+cl_autowepswitch "0" // auto weapon switch on pickup
+cl_use_opens_buy_menu "0" // `e` opening buy menu
+closeonbuy "1"
