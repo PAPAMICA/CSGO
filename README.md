@@ -16,7 +16,8 @@ Enter launch options at `Steam > Library > Counter-Strike: Global Offensive (rig
 ### Other Settings
 + Windows Sensitivity: 6/11  
 + Enhance Pointer Precision: No  
-+ Mouse DPI: 800  
++ Mouse DPI: 8100  
++ Ingame sensitivity : 1.0
 + Mouse Polling Rate: 1000hz
 + Nvidia Maximum Pre-Rendered Frames: 1  
 + 1280x960 windowed (4/3)
