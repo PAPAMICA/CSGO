@@ -20,9 +20,17 @@ Enter launch options at `Steam > Library > Counter-Strike: Global Offensive (rig
 + Ingame sensitivity : 1.0
 + Mouse Polling Rate: 1000hz
 + Nvidia Maximum Pre-Rendered Frames: 1  
-+ 1280x960 windowed (4/3)
++ 3840 x 1080 fullscreen (32/9) with triple screen mode.
 + In-Game Audio Ouput: Headphones  
 + [Simple Radar](http://simpleradar.com/)
 + [TextColorMod](https://bananagaming.tv/textcolormod.php)
 + [VibranceGUI by juvlarN](http://vibrancegui.com/) - Ingame Vibrance Level: 100% (Automated digital vibrance). **Only download from the official site. There are recompiled versions out there that will attempt to steal your inventory.** 
 
+### Hardwares
++ Graphic Card : [Nvidia RTX 3090 FE](https://amzn.to/3rgfLUE)
++ CPU : [AMD Ryzen 9 3900X](https://amzn.to/3oGlkKc)
++ RAM : [Corsair 64 Go DDR4 3200](https://amzn.to/3atYAYH)
+
++ Screen : [Samsung Odyssey G9](https://amzn.to/3pTLCde)
++ Mouse : [Logitech G502 LightSpeed](https://amzn.to/3jciziU)
++ Keyboard : [Azeron](https://amzn.to/3tlmrlZ) + [Logitech G915 LightSpeed](https://amzn.to/3pI7RTE)
