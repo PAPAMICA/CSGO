@@ -14,7 +14,6 @@ Put *autoexec.cfg* in `...\Steam\steamapps\common\Counter-Strike Global Offensiv
 Enter launch options at `Steam > Library > Counter-Strike: Global Offensive (right-click) > Properties > Set Launch Options...`
 
 ### Other Settings
-+ Windows Sensitivity: 6/11  
 + Enhance Pointer Precision: No  
 + Mouse DPI: 8100  
 + Ingame sensitivity : 1.0
@@ -27,6 +26,8 @@ Enter launch options at `Steam > Library > Counter-Strike: Global Offensive (rig
 + [VibranceGUI by juvlarN](http://vibrancegui.com/) - Ingame Vibrance Level: 100% (Automated digital vibrance). **Only download from the official site. There are recompiled versions out there that will attempt to steal your inventory.** 
 
 ### Hardwares
++ OS : Manjaro
++ DE : KDE Plasma 5
 + Graphic Card : [Nvidia RTX 3090 FE](https://amzn.to/3rgfLUE)
 + CPU : [AMD Ryzen 9 3900X](https://amzn.to/3oGlkKc)
 + RAM : [Corsair 64 Go DDR4 3200](https://amzn.to/3atYAYH)
