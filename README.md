@@ -34,4 +34,4 @@ Enter launch options at `Steam > Library > Counter-Strike: Global Offensive (rig
 + Screen : [Samsung Odyssey G9](https://amzn.to/3pTLCde)
 + Mouse : [Logitech G502 LightSpeed](https://amzn.to/3jciziU)
 + Keyboard : [Azeron](https://amzn.to/3tlmrlZ) + [Logitech G915 LightSpeed](https://amzn.to/3pI7RTE)
-+ Headset : [Logitech G533](https://amzn.to/3riHEeu)
++ Headset : [Logitech G PRO X Wireless](https://amzn.to/3JF0CpQ)
